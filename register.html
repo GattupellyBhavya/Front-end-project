@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>account - Artista </title>
+	<link rel="stylesheet" href="style.css">
+	<script language="javascript">
+function func1()
+{
+var x=document.forms["form1"] ["fname"].value;
+if(x=="")
+{
+alert("Number cannot be blank")
+return false;
+}
+}
+</script>
+<script language="javascript">
+function func2()
+{
+var x=document.forms["form2"] ["fname2"].value;
+if(x=="")
+{
+alert("Password cannot be blank")
+return false;
+}
+}
+</script>
+</head>
+<body>
+		<header>
+		
+			<nav>
+			<div class="container1">
+			
+				<div class="container-item"><a href="main.html">Home</a></div>
+				<div class="container-item"><a href="products.html">Products</a></div>
+				<div class="container-item"><a href="videos.html">Tutorial</a></div>		
+				<div class="container-item"><a href="account.html">Login</a></div>
+				<div class="container-item"><a href="cart.html">Cart</a></div>
+				<div class="container-item"><a href="aboutus.html">About</a></div>
+			</div>	
+			</nav>
+			<div class="title">
+				<h1 class="title-name">Artista</h1><p class="title-dsc">one stop destination for art lovers!</p>
+			</div>
+	
+		</header>
+
+	<!--------register------>
+
+<div class="login-page">
+		<div class="container">
+			<div class="row">
+				
+					<div class="form-container" name="form1" onsubmit="return func1 ()" name="form2" onsubmit="return func2 ()">
+						<form class="Regform">
+						<h3 class="login">Register</a></h3>
+						<input type="text" placeholder="Firstname"><br>
+						<input type="text" placeholder="Lastname"><br>
+						<input type="tel" placeholder="Mobilenumber" name="fname" pattern="[789][0-9]{9}"> <br>
+						<input type="email" placeholder="Email"><br>
+						<input type="Password" placeholder="Password" name="fname2" pattern="[A-Z][a-z][^abc][0-9]{5}"><br>
+						<input type="submit" value="Register"<br>
+						</form>
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!------footer----->
+	<footer>
+		<h1>Artista</h1>
+		<p> Copyright © 2021 - Artista </p>
+	</footer>
+	
+</body>
+
+</html>
