@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>account - Artista </title>
+	<link rel="stylesheet" href="style.css">
+<script language="javascript">
+function func1()
+{
+var x=document.forms["form1"] ["fname"].value;
+if(x=="")
+{
+alert("Password cannot be blank")
+return false;
+}
+}
+</script>
+</head>
+<body>
+		<header>
+		
+			<nav>
+			<div class="container1">
+			
+				<div class="container-item"><a href="main.html">Home</a></div>
+				<div class="container-item"><a href="products.html">Products</a></div>
+				<div class="container-item"><a href="videos.html">Tutorial</a></div>		
+				<div class="container-item"><a href="account.html">Login</a></div>
+				<div class="container-item"><a href="cart.html">Cart</a></div>
+				<div class="container-item"><a href="aboutus.html">About</a></div>
+			</div>	
+			</nav>
+			<div class="title">
+				<h1 class="title-name">Artista</h1><p class="title-dsc">one stop destination for art lovers!</p>
+			</div>
+	
+		</header>
+
+	<!--------account page------>
+
+<div class="login-page">
+		<div class="container">
+			<div class="row">
+				
+					<div class="form-container">
+					
+						<form class="loginform" name="form1" onsubmit="return func1 ()">
+						<h3 class="login">Login</h3>
+						<input type="text" placeholder="Username"><br>
+						<input type="password" placeholder="Password" name="fname"> <br>
+						<input type="submit" value="Login"><br>
+						<a href="#">Forgot Password</a><br>
+						<a href="register.html">Register</a>
+						</form>
+						
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!------footer----->
+	<footer>
+		<h1>Artista</h1>
+		<p> Copyright © 2021 - Artista </p>
+	</footer>
+	
+</body>
+
+</html>
+
+
+
